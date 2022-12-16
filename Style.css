@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(250, 214, 181);
+}
+a:link {
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+.ind {
+    background-color: #24303c;
+    text-align: right;
+    font-size: 18px;
+    width: 100%;
+    outline: 5px;
+    padding: 25px 25px 25px 25px;
+    margin-bottom: 50px;
+    text-shadow: 3px 5px 3px #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    opacity: 85%;
+    transition: color 0.3 ease;
+}
+.ind2 {
+    background-color: #24303c;
+    text-align: right;
+    margin-top: 0%;
+    font-size: 18px;
+    width: 100%;
+    outline: 5px;
+    margin-bottom: 50px;
+    padding: 25px 25px 25px 25px;
+    text-shadow: 3px 5px 3px #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 0px;
+    opacity: 85%;
+    float: inline-start;
+}
+
+
+.head1 {
+margin-top: 5%;
+    font-size: 50px;
+    text-align: center;
+    display: grid;
+    font-family: 'Lucida Sans';
+    cursor: default;
+    border-radius: 9px;
+    padding: 25px 25px 0px 0px;
+    text-shadow: 3px 3px 3px #000;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: rgb(250, 214, 181);
+    transition: color 0.5 ease-in-out;
+}
+
+.abme {
+    margin: 15px 25px 25px 50%;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    font-family: 'Lucida sans';
+    font-size: 35px;
+    text-align: right;
+}
+
+.head2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.form-register {
+    text-align: left;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    margin-bottom: 70px;
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: calibri;
+    font-size: 18px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .button {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+body {
+    background-color: #374A5C;
+    padding-top: 10px 10px 10px 10px;
+}
+
+.IMG {
+    height: 350px;
+    border-radius: 25px;
+    float: left;
+    margin-left: 55px;
+}
+
+
+table {
+    width: 18%;
+    margin-left: 41%;
+    margin-top: 40px;
+}
+
+th,
+td {
+    border: 1px rgb(51, 51, 51);
+    padding: 5px;
+}
+
+table th img {
+    height: 65px;
+    padding: 1px;
+}
+
+.AboutMe {
+    text-align: right;
+    font-size: 20px;
+    font-family: Lucida Sans;
+    margin: 10% 10% 5% 40%;
+    padding: auto;
+    display: inline-block;
+}
+
+.end {
+    margin: 20px 0px 25px 0px;
+    padding: 35px 0 35px 0;
+    background-color: #24303c;
+}
+
+.end p a img {
+    height: 45px;
+    float: left;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    opacity: 80% ;
+}
+.Link{
+    height: 55px;
+    float: left;
+}
+.end p a img:hover {
+    animation: vibrate 0.5s;
+    animation-iteration-count: infinite;
+}
+.copy{
+    margin:20px 11% 0px 0px;
+    color: #374A5C;
+}
+@keyframes vibrate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(-1deg);
+    }
+
+    20% {
+        transform: rotate(-2deg);
+    }
+
+    30% {
+        transform: rotate(-3deg);
+    }
+
+    35% {
+        transform: rotate(-2deg);
+    }
+
+    40% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(1deg);
+    }
+
+    60% {
+        transform: rotate(2deg);
+    }
+
+    70% {
+        transform: rotate(3deg);
+    }
+
+    80% {
+        transform: rotate(2deg);
+    }
+
+    85% {
+        transform: rotate(0deg);
+    }
+
+    90% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(-2deg);
+    }
+}
+@media (max-width:991px){
+    .v1{
+        background-color: #1f53c5;
+    }
+}
+.Inicio {
+    color: #374A5C;
+    margin:0px 11% 0px 0px; 
+}
