@@ -173,7 +173,7 @@ body {
 }
 .grid-item-bootstrap {
   max-width: 7rem;
-  margin-top: 25px;
+  margin-top: 18px;
 }
 .section__tech {
   margin-right: 0;
@@ -200,6 +200,7 @@ body {
   border: 0;
   content: "";
   height: 100%;
+  width: 50%;
 }
 .Landing:hover {
   filter: blur(0.5rem);
