@@ -366,7 +366,14 @@ body {
     width: 100%;
   }
   .navbar-brand{
-    font-size: 5px;
+    font-size: 12px !important;
+  }
+
+  .grid-item{
+    max-width: 6rem;
   }
   
+  .grid-item-bootstrap{
+    max-width: 6rem;
+  }
 }
