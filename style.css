@@ -241,6 +241,10 @@ body {
   background-color: #24303c;
 }
 
+.la-bars{
+  font-size:18px;
+}
+
 .end2 p a img {
   height: 35px;
   float: left;
