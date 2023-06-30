@@ -158,6 +158,7 @@ a:hover {
 }
 
 body {
+  background-color: #000;
   width: 100%;
   padding-top: 10px 10px 10px 10px;
 }
@@ -192,6 +193,9 @@ body {
     width: 120px;
     z-index: 1;
 }
+#skills{
+margin-top: 13%;
+}
 .span-skills:hover {
   opacity: 1;
 }
@@ -211,21 +215,21 @@ body {
 }
 
 .span1 {
-  position: absolute;
   font-size: 25px;
   color: aliceblue;
-  padding: 25px;
   border-radius: 45%;
   height: 12%;
   pointer-events: none;
+  justify-content: center;
 }
 
 .AboutMe {
   padding: 40px 0 25px 0;
-  margin-bottom: 0;
+  margin-bottom: 10%;
   font-size: 25px;
   font-family: "Roboto", sans-serif;
   color: aliceblue;
+  margin-top: 5%;
 }
 
 .end {
