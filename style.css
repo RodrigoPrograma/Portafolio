@@ -12,6 +12,9 @@
   background-image: url(bg.jpg);
   padding-bottom: 48px;
 }
+.navbar-toggler{
+  background-color: #18426d;
+}
 .name,
 .dev {
   color: aliceblue;
@@ -33,6 +36,11 @@ a:visited {
   height: 80%;
 }
 
+.links-container{
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}
 
 .nav-fixed {
   position: fixed;

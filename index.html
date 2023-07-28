@@ -29,19 +29,22 @@
     </header>
 
 <nav id="navbar" class="navbar navbar-expand-lg bg-primary d-flex">
-  <div class="container-fluid d-flex">
+  <div class="container-fluid links-container d-flex">
     <a class="navbar-brand pt-1" href="#">Rodrigo Alonzo
       Desarrollador Front-end</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-  icon"><i class="las la-bars"></i></span>
+      <span class="navbar-toggler-  icon"><i class="las la-bars" id="bars"></i></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav ps-5">
         <li class="nav-item pe-2">
-          <a class="nav-link active" aria-current="page" href="#portafolio">Portafolio</a>
+          <a class="nav-link" aria-current="page" href="#portafolio">Portafolio</a>
         </li>
         <li class="nav-item pe-2">
           <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item pe-2">
+          <a class="nav-link" href="formulario.html">formulario</a>
         </li>
         <li class="nav-item pe-2">
           <a class="nav-link" href="#contact">Contacto</a>
@@ -105,6 +108,21 @@
 
     </div>
   </section>
+  <section class="form-register" id="cotizacion">
+    <h4>Puede solicitar una cotizacion</h4>
+    <form action="GET">
+        <label for="nombre">Nombre</label>
+        <input class="controls" id="name" name="Nombre" placeholder="Nombre y apellido">
+        <br>
+        <label for="email">Email</label>
+        <input class="controls" name="email" placeholder="Presupuesto@gmail.com">
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea class="controls" name="comentario" id="comentario" cols="40" rows="10"
+            placeholder="Ingrese un comentario"></textarea>
+        <input class="button" type="submit" name="Submit" id="button">
+    </form>
+</section>
 
   <footer id="contact" class="row m-0 container-fluid end w-100">
     <nav class="container-md col-8 d-flex mb-3 justify-content-around">
