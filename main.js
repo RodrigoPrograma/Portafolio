@@ -12,4 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+document.getElementById("btn-nav").addEventListener("click", changeIcon);
 
+var icon = document.getElementById("bars");
+
+function changeIcon() {
+icon.classList.toggle("la-bars")
+icon.classList.toggle("la-times")  
+};
