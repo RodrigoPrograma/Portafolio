@@ -5,22 +5,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 14px;
+  color: white!important; 
   text-align: center;
 }
 .hero {
   background-image: url(bg.jpg);
   padding-bottom: 48px;
 }
-.navbar-toggler{
-  background-color: #18426d;
-}
 .name,
 .dev {
   color: aliceblue;
   font-family: Montserrat, sans-serif;
 }
-
+/*Navbar*/
+.navbar-brand{
+  text-transform: uppercase !important;
+  font-family: 'Raleway', sans-serif;
+}
+.navbar-toggler{
+  background-color: #18426d;
+}
+.nav-link{
+  margin: 0 2px !important;
+}
+.nav-link:hover{
+  color: rgb(27, 36, 44) !important;
+}
 a:link {
   text-decoration: none;
 }
@@ -236,6 +246,7 @@ margin-top: 13%;
   height: 12%;
   pointer-events: none;
   justify-content: center;
+  text-transform: uppercase;
 }
 
 .AboutMe {

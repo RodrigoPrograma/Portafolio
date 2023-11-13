@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
-    if (window.scrollY > 550) {
+    if (window.scrollY > 430) {
       document.getElementById("navbar").classList.add("nav-fixed");
       document.getElementById("navbar").classList.remove("navbar");
       navbar_height = document.querySelector(".navbar");
