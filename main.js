@@ -20,3 +20,21 @@ function changeIcon() {
 icon.classList.toggle("la-bars")
 icon.classList.toggle("la-times")  
 };
+
+const skillSpan = document.getElementById("span");
+const skillBtn = document.getElementById("skillButton");
+
+skillBtn.addEventListener("click", spanShow,);
+
+function spanShow() {
+
+  skillSpan.classList.toggle("tailwindSpan");
+  skillSpan.classList.toggle("tailwindSpan:active");
+}
+
+
+function mostrar () { 
+const span = document.getElementById("viteSpan"); 
+span.classList.toggle("viteSpan");
+span.classList.toggle("viteSpan:active");
+}

@@ -1,3 +1,8 @@
+body {
+  background-color: #000;
+  width: 100%;
+  padding-top: 10px 10px 10px 10px;
+}
 .navbar {
   position: static !important; 
 }
@@ -182,16 +187,16 @@ a:hover {
   font-size: 16px;
 }
 
-body {
-  background-color: #000;
-  width: 100%;
-  padding-top: 10px 10px 10px 10px;
-}
+/*Skills*/
 
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-right: 25px;
+  grid-gap: 1rem;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
   grid-gap: 1rem;
 }
 .grid-item {
@@ -201,6 +206,7 @@ body {
   max-width: 7rem;
   margin-top: 18px;
 }
+
 .section__tech {
   margin-right: 0;
 }
@@ -218,12 +224,84 @@ body {
     width: 120px;
     z-index: 1;
 }
+.tailwindCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease; 
+}
+.tailwindSpan{
+  position: absolute;
+  top: 1010px;
+  opacity: 0;
+}
+.tailwindSpan:active{
+  opacity: 1;
+  position: absolute;
+  top: 1025px;
+}
+.viteImg{
+  width: 4rem;
+  padding: 25px 0;
+}
+.viteSpan{
+  position: absolute;
+  top: 1010px;
+  opacity: 0;
+}
+.viteSpan:active{
+  opacity: 1;
+  position: absolute;
+  top: 1050px;
+}
+.vientos{
+  width: 100%;
+}
 #skills{
 margin-top: 13%;
 }
-.span-skills:hover {
-  opacity: 1;
+
+.logo {
+  border: 3px solid #6b6b6b;
+  border-radius: 25px;
+  margin-top: 4rem;
+  height: 7rem;
+  padding: 1.5em;
+  transition: all .8s ease-in;
+  filter: grayscale(100) opacity(25%);
 }
+.logo2 {
+  border: 3px solid #29caf7aa;
+  border-radius: 25px;
+  margin-top: 4rem;
+  height: 7rem;
+  padding: 1.5em;
+  transition: all .5s ease-in;
+  filter: grayscale(0) opacity(100%);
+}
+
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+  border: 3px solid #29caf7aa;
+  animation: border 1s linear;  
+}
+
+.logo2.react:hover {
+  filter: drop-shadow(0 0 2em #616161aa) grayscale(100) opacity(25%);
+  border: 3px solid #5f5f5faa;
+  animation: border 6s linear;
+}
+
+.logo2::before{
+  content: "" ;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*Proyectos*/
 
 .Landing {
   border: 0;
@@ -308,6 +386,9 @@ margin-top: 13%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 1rem;
 }
+
+
+
 
 @keyframes vibrate {
   0% {
