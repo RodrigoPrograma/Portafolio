@@ -330,6 +330,11 @@ a:hover {
   justify-content: center;
   text-transform: uppercase;
 }
+.span2 {
+  pointer-events: none;
+  justify-content: center;
+  text-transform: uppercase;
+}
 
 .AboutMe {
   padding: 40px 0 25px 0;

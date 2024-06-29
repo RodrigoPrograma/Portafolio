@@ -8,83 +8,80 @@
   <title>Mi web</title>
   <link rel="shortcut icon" href="assets/RA.ico" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
   <link rel="stylesheet"
-  href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  
+
 </head>
 
 <body>
-  
-  
-
-<nav id="navbar" class="navbar navbar-expand-lg bg-primary d-flex">
-  <div class="container-fluid links-container ">
-    <a class="navbar-brand pt-1" href="#">Rodrigo Alonzo
-      Desarrollador Front-end</a>
-    <button class="navbar-toggler" id="btn-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-  icon"><i class="las la-bars" id="bars"></i></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item pe-2">
-          <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item pe-2">
-          <a class="nav-link" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item pe-2">
-          <a class="nav-link" href="#cotizacion">Formulario</a>
-        </li>
-        <li class="nav-item pe-2">
-          <a class="nav-link" href="#contact">Contacto</a>
-        </li>
-      </ul>
+  <nav id="navbar" class="navbar navbar-expand-lg bg-primary d-flex">
+    <div class="container-fluid links-container ">
+      <a class="navbar-brand pt-1" href="#">RA
+        Desarrollador Front-end</a>
+      <button class="navbar-toggler" id="btn-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-  icon"><i class="las la-bars" id="bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item pe-2">
+            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item pe-2">
+            <a class="nav-link" href="#skills2">Skills</a>
+          </li>
+          <li class="nav-item pe-2">
+            <a class="nav-link" href="#cotizacion">Formulario</a>
+          </li>
+          <li class="nav-item pe-2">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
   <section id="Conocimientos2" class="">
     <p class="AboutMe">
       En este apartado te mostraré mis proyectos con React
     </p>
-  </section>
-
-  
-  <h3 class="vientos span1 row d-flex mt-5">Hotel Vientos del sur</h3>
-    <section class="Portafolio-section">
+    
+    
+    <article class="Portafolio-section">
+      <h3 class="vientos span1 row d-flex mt-5">Hotel Vientos del sur</h3>
       <p>Landing page de un servicio de hospedaje submarino realizada con React.js</p>
       <a target="_blank" href="https://vientosdelsur.netlify.app/" class="Landing ">
-        <img class="Landing-photo" src="assets/Hotel web.png"></a>
+      <img class="Landing-photo" src="assets/Hotel web.png"></a>
+    </article>
+  <article class="Portafolio-section">
+    <h3  class="vientos span1 row d-flex mt-5">Mi TodoList</h3>
+    <p>Lista de tareas creada con React.js</p>
+    <a target="_blank" href="https://mistareasoficial.netlify.app/" class="Landing">
+      <img  class="Landing-photo" src="assets/todolist.png"></a>
+    </article>
+    
   </section>
-  <h3 class="vientos span1 row d-flex mt-5">Mi TodoList</h3>
-    <section class="Portafolio-section">
-      <p>Lista de tareas creada con React.js</p>
-      <a target="_blank" href="https://mistareasoficial.netlify.app/" class="Landing">
-        <img class="Landing-photo" src="assets/todolist.png"></a>
-  </section>
-  </section>
-
-  <section class="section__tech  d-grid pb-5">
-    <h2 class="d-flex justify-content-center p-5 text-white-50" id="skills2">Skills</h2>
+  <section id="skills2" class="section__tech  d-grid pb-5">
+    <h2 class="d-flex justify-content-center p-5 text-white-50" >Skills</h2>
     <hr>
     <div class="grid-container2">
 
       <div class="tailwindCard">
         <button class="bg-black border-0" id="skillButton">
-        <img class="grid-item" src="assets/tailwind.png" >
-      </button>
+          <img class="grid-item" src="assets/tailwind.png">
+        </button>
         <span class="tailwindSpan" id="span">Tailwind</span>
       </div>
 
       <div class="tailwindCard">
         <button class="bg-black border-0" onclick="mostrar()">
-        <img class="grid-item viteImg" src="assets/vite.svg" >
-      </button>
+          <img class="grid-item viteImg" src="assets/vite.svg">
+        </button>
         <span class="viteSpan" id="viteSpan">Vite</span>
       </div>
 
@@ -92,28 +89,41 @@
 
     <div>
       <a href="index.html" class="react-skill">
-      <img class="grid-item logo2 react draw meet" src="assets/react.svg" >
-    </a>
+        <img class="grid-item logo2 react draw meet" src="assets/react.svg">
+      </a>
     </div>
-
-
-
   </section>
+  <section class="Experiencia">
+    <h2>Mis Proyectos</h2>
+    <p><span>Te muestro mi experiencia como desarrollador</span></p>
+      <article class="Portafolio-section">
+        <h4 class="vientos span2 row d-flex mt-5">Estudio Balaguer-Ayala & Asociados</h4>
+        <p>Pagina principal de Estudio Balaguer-Ayala</p>
+        <a target="_blank" href="https://estudiobalaguer.netlify.app/" class="Landing">
+        <img class="Landing-photo" src="assets/Estudio-balaguer-portada.jpg"></a>
+      </article>
+      <article class="Portafolio-section">
+        <h4 class="vientos span2 row d-flex mt-5">Nails By Cami</h4>
+        <p>Landing Page para Emprendora</p>
+        <a target="_blank" href="https://nailsbycami.netlify.app/" class="Landing">
+        <img class="Landing-photo" src="assets/Nailsbycamiportada.jpg"></a>
+      </article>
+  </section> 
   <section class="form-register" id="cotizacion">
     <h4>Formulario de contacto</h4>
     <form action="https://formsubmit.co/ralonzo1337@gmail.com" method="POST" target="_blank">
-        <label for="nombre">Nombre</label>
-        <input class="controls" id="name" name="nombre" placeholder="Nombre y apellido">
-        <br>
-        <label for="email">Email</label>
-        <input class="controls" name="email" placeholder="Presupuesto@gmail.com">
-        <br>
-        <label for="comentario">Comentario</label>
-        <textarea class="controls" name="comentario" id="comentario" cols="40" rows="10"
-            placeholder="Ingrese un comentario"></textarea>
-        <input class="button" type="submit" name="Submit" id="button">
+      <label for="nombre">Nombre</label>
+      <input class="controls" id="name" name="nombre" placeholder="Nombre y apellido">
+      <br>
+      <label for="email">Email</label>
+      <input class="controls" name="email" placeholder="Presupuesto@gmail.com">
+      <br>
+      <label for="comentario">Comentario</label>
+      <textarea class="controls" name="comentario" id="comentario" cols="40" rows="10"
+        placeholder="Ingrese un comentario"></textarea>
+      <input class="button" type="submit" name="Submit" id="button">
     </form>
-</section>
+  </section>
 
   <footer id="contact" class="row m-0 container-fluid end w-100">
     <div class="footerContainer">
@@ -124,19 +134,21 @@
         <a href="https://rodrigoprograma.github.io/#Conocimientos2">Proyectos</a>
         <a href="https://rodrigoprograma.github.io/#skills2">Skills</a>
       </ul>
-    <nav class="social">
-      <p class="socialLink">
-        <a class="contact-link" title="Mailme" href="mailto:ralonzo1337@gmail.com"><img src="assets/email_128.png" /></a>
-      </p>
-      <p class="socialLink">
-        <a class="contact-link" target="_blank" href="http://www.linkedin.com/in/rodrigo-alonzo-aba6a6106"><img src="assets/in.png" /></a>
-      </p>
-      <p class="socialLink">
-        <a class="contact-link" target="_blank" class="Github" href="https://github.com/RodrigoPrograma"><img src="assets/logotipo-de-github.png"
-            alt="To Github" /></a>
-      </p>
-    </nav>
-  </div>
+      <nav class="social">
+        <p class="socialLink">
+          <a class="contact-link" title="Mailme" href="mailto:ralonzo1337@gmail.com"><img
+              src="assets/email_128.png" /></a>
+        </p>
+        <p class="socialLink">
+          <a class="contact-link" target="_blank" href="http://www.linkedin.com/in/rodrigo-alonzo-aba6a6106"><img
+              src="assets/in.png" /></a>
+        </p>
+        <p class="socialLink">
+          <a class="contact-link" target="_blank" class="Github" href="https://github.com/RodrigoPrograma"><img
+              src="assets/logotipo-de-github.png" alt="To Github" /></a>
+        </p>
+      </nav>
+    </div>
     <div class="container d-flex justify-content-end">
       <div class="row">
         <div class="col"></div>
@@ -148,7 +160,9 @@
     </div>
   </footer>
   <script src="main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
 
 </body>
 
