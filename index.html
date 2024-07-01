@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,179 +10,127 @@
   integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
   <link rel="stylesheet"
   href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Raleway:wght@500&family=Montserrat&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  
 </head>
-
 <body>
-  
   <header class="hero">
-      <img src="assets/pepe.jpeg" class="photo" alt="">
-      <div>
-        <h1 class="name">RODRIGO ALONZO</h1>
-      <br>
-        <h2 class="dev">Desarrollador Front-end</h2>
-      </div>
-    </header>
-
-<nav id="navbar" class="navbar navbar-expand-lg bg-primary d-flex">
-  <div class="container-fluid links-container ">
-    <a class="navbar-brand pt-1" href="#">Rodrigo Alonzo
-      Desarrollador Front-end</a>
-    <button class="navbar-toggler" id="btn-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-  icon"><i class="las la-bars" id="bars"></i></span>
+    <img src="assets/pepe.jpg" class="photo" alt="Rodrigo Alonzo Desarrollador FrontEnd">
+    <h1 class="name">RODRIGO ALONZO</h1>
+    <p class="dev">Desarrollador Front-end</p>
+  </header>
+  <nav id="navbar" class="navbar navbar-expand-lg bg-primary p-2 sticky-top">
+    <a class="navbar-brand" href="#">Rodrigo Alonzo</a>
+    <button class="navbar-toggler" id="btn-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="las la-bars" id="bars"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item pe-2">
-          <a class="nav-link" aria-current="page" href="#portafolio">Portafolio</a>
-        </li>
-        <li class="nav-item pe-2">
-          <a class="nav-link" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item pe-2">
-          <a class="nav-link" href="#cotizacion">Formulario</a>
-        </li>
-        <li class="nav-item pe-2">
-          <a class="nav-link" href="#contact">Contacto</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-  <section id="Conocimientos" class="">
+    <ul id="navbarNav" class="navbar-nav navbar-collapse collapse">
+      <li><a class="nav-link" href="#portafolio">Portafolio</a></li>
+      <li><a class="nav-link" href="#skills">Skills</a></li>
+      <li><a class="nav-link" href="#cotizacion">Formulario</a></li>
+      <li><a class="nav-link" href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+  <section id="Conocimientos" class="contain ">
+    <h2 class="text-white-50 my-3 p-3 border-bottom">Desarrollador Front-End</h2>
     <p class="AboutMe">
       Inicié en mi camino como desarrollador luego de mi ultimo trabajo en
       el sector gastronomico, desarrollé herramientas que me permitan cumplir mis metas. Mi
       objetivo es brindarte una web funcional, estilizada y accesible.
     </p>
   </section>
-
-  
-  <section class="row w-100 justify-content-center m-0">
-    <h2 class="Portafolio-header  p-5 m-0 text-white-50" id="portafolio" >Proyectos</h2>
-    <h3 class="span1 row d-flex">Fast Food truck Landing</h3>
-    <div class="">
+  <section class="contain row w-100 justify-content-center m-0">
+    <h2 class="text-white-50 my-3 p-3 pt-5 border-bottom" id="portafolio">Proyectos</h2>
+    <article>
+      <h3 class="span1">Fast Food truck Landing</h3>
       <p>Trabajo final para el curso de Argentina Programa. Consiste en el desarrollo Front-end de una landing page responsiva con consumo de API REST</p></a>
       <a target="_blank" href="https://matiaserossi.github.io/LandingAPG2/" class="Landing ">
-        <img class="Landing-photo" src="assets/Landing photo.png"></a>
-      </div>
-
- 
-  <h3 class="span1 row d-flex mt-5">Webvita Design</h3>
-    <section class="">
+        <img class="Landing-photo" src="assets/Landing photo.png">
+      </a>
+    </article>
+    <article>
+      <h3 class="span1">Webvita Design</h3>
       <p>Desarrollo de mi proyecto freelance mediante Webflow, para contacto y exposicion de trabajos Freelance</p>
       <a target="_blank" href="https://webvita.webflow.io/" class="Landing ">
         <img class="Landing-photo" src="assets/webvita.png">
       </a>
-    </section>
-    
-    <div>
-      <a href="React.html" class="react-skill">
-      <span class="span-skills">React</span>
-      <img class="grid-item logo react" src="assets/react.svg" >
-    </a>
-    </div>
-  
+    </article>
+      <a href="React.html" class="m-auto react-skill">
+        <img class="d-block mx-auto grid-item logo react" src="assets/react.svg" >
+        <span class="span-skills">React</span>
+      </a>
   </section>
-
-  <section class="section__tech  d-grid pb-5">
-    <h2 class="d-flex justify-content-center p-5 text-white-50" id="skills">Skills</h2>
-    <hr>
+  <section class="contain">
+    <h2 class="text-white-50 my-3 p-3 pt-5 border-bottom" id="skills">Skills</h2>
     <div class="grid-container">
-      <div>
-        <span class="span-skills">Css</span>
+      <figure>
         <img class="grid-item" src="assets/css.png">
-      </div>
-      <div>
-        <span class="span-skills">Html</span>
+        <figcaption class="span-skills">Css</figcaption>
+      </figure>
+      <figure>
         <img class="grid-item" src="assets/htlm.png">
-      </div>
-      <div>
-        <span class="span-skills">Javascript</span>
+        <figcaption class="span-skills">Html</figcaption>
+      </figure>
+      <figure>
         <img class="grid-item" src="assets/js.png" >
-      </div>
-      <div>
-        <span class="span-skills">Bootstrap</span>
-        <img class="grid-item-bootstrap" src="assets/Bootstrap_logo.svg">
-      </div>
-      <div>
-        <span class="span-skills">GIT</span>
+        <figcaption class="span-skills">Javascript</figcaption>
+      </figure>
+      <figure>
+        <img class="grid-item " src="assets/Bootstrap_logo.svg">
+        <figcaption class="span-skills">Bootstrap</figcaption>
+      </figure>
+      <figure>
         <img class="grid-item" src="assets/Git-Icon-1788C.svg">
-      </div>
-      <div>
-        <span class="span-skills">Node</span>
+        <figcaption class="span-skills">GIT</figcaption>
+      </figure>
+      <figure>
         <img class="grid-item" src="assets/nodejs-icon-logo-svg-vector.svg">
-      </div>
-      <div>
-        <span class="span-skills">Jquery</span>
+        <figcaption class="span-skills">Node</figcaption>
+      </figure>
+      <figure>
         <img class="grid-item" src="assets/jquery.svg">
-      </div>
-      <div>
-        <span class="span-skills">Sass</span>
+        <figcaption class="span-skills">Jquery</figcaption>
+      </figure>
+      <figure>
         <img class="grid-item" src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" >
-      </div>
-
+        <figcaption class="span-skills">Sass</figcaption>
+      </figure>
     </div>
-
-
-
-
   </section>
-  <section class="form-register" id="cotizacion">
-    <h4>Puede solicitar una cotizacion</h4>
-    <form action="https://formsubmit.co/ralonzo1337@gmail.com" method="POST" target="_blank">
+  <section class="form-register pt-5" id="cotizacion">
+    <h2>Puede solicitar una cotizacion</h2>
+    <form action="https://formsubmit.co/ralonzo1337@gmail.com" method="POST" target="_blank" class="d-flex flex-column">
         <label for="nombre">Nombre</label>
         <input class="controls" id="name" name="nombre" placeholder="Nombre y apellido">
-        <br>
         <label for="email">Email</label>
         <input class="controls" name="email" placeholder="Presupuesto@gmail.com">
-        <br>
         <label for="comentario">Comentario</label>
-        <textarea class="controls" name="comentario" id="comentario" cols="40" rows="10"
-            placeholder="Ingrese un comentario"></textarea>
+        <textarea class="controls" name="comentario" id="comentario" placeholder="Ingrese un comentario"></textarea>
         <input class="button" type="submit" name="Submit" id="button">
     </form>
-</section>
-
-<footer id="contact" class="row m-0 container-fluid end w-100">
-  <div class="footerContainer">
-    <ul class="footerLinksContainer">
-      <h6>Home</h6>
-      <a class="footerNav" href="#">Inicio</a>
-      <a class="footerNav" href="#portafolio">Proyectos</a>
-      <a class="footerNav" href="#skills">Skills</a>
-    </ul>
-  <nav class="social">
-    <p class="socialLink">
-      <a class="contact-link" title="Mailme" href="mailto:ralonzo1337@gmail.com"><img src="assets/email_128.png" /></a>
-    </p>
-    <p class="socialLink">
-      <a class="contact-link" target="_blank" href="http://www.linkedin.com/in/rodrigo-alonzo-aba6a6106"><img src="assets/in.png" /></a>
-    </p>
-    <p class="socialLink">
-      <a class="contact-link" target="_blank" class="Github" href="https://github.com/RodrigoPrograma"><img src="assets/logotipo-de-github.png"
-          alt="To Github" /></a>
-    </p>
-  </nav>
-</div>
-  <div class="container d-flex justify-content-end">
-    <div class="row">
-      <div class="col"></div>
+  </section>
+  <footer id="contact" class="contain end">
+    <div class="footerContainer">
+      <ul class="footerLinksContainer list-unstyled">
+        <li><a class="footerNav" href="#">Inicio</a></li>
+        <li><a class="footerNav" href="#portafolio">Proyectos</a></li>
+        <li><a class="footerNav" href="#skills">Skills</a></li>
+      </ul>
+      <div class="social">
+        <a class="socialLink" title="Mailme" href="mailto:ralonzo1337@gmail.com">
+          <img src="assets/email_128.png">
+        </a>
+        <a class="socialLink" target="_blank" href="http://www.linkedin.com/in/rodrigo-alonzo-aba6a6106">
+          <img src="assets/in.png">
+        </a>
+        <a class="socialLink" target="_blank" class="Github" href="https://github.com/RodrigoPrograma">
+          <img src="assets/logotipo-de-github.png" alt="To Github">
+        </a>
+      </div>
     </div>
-  </div>
-  </div>
-  <div class="container-fluid">
     <p class="copy">©Copyright 2022</p>
-  </div>
-</footer>
+  </footer>
   <script src="main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
 </body>
-
 </html>
