@@ -7,7 +7,7 @@ $headers .= "From: " . $_POST['email'] . "\r\n";
 
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
-$comentarios = $_POST['comentarios'];
+$comentarios = $_POST['comentario'];
 $message = "
 <html>
 <head>
